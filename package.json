@@ -1,0 +1,17 @@
+{
+  "name": "my_weather",
+  "version": "1.0.0",
+  "description": "Simple, Lightweight Weather Report/Forecast ",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Whittaker",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "got": "^11.3.0",
+    "typescript": "^3.9.5"
+  }
+}
