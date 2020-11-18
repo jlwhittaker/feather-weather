@@ -46,7 +46,7 @@ class WeatherApp extends React.Component {
             )
         }
         // Page is loaded
-        let hour = (new Date()).getHours;
+        let hour = (new Date()).getHours();
         let night = false;
         if (hour < 5 || hour > 20) {
             night = true;
